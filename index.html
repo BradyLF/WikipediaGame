@@ -46,16 +46,6 @@
 </form>
 <br>
 <iframe style="border:dotted" id="the-frame" width="100%" height="600px" src="" frameborder="0" allowfullscreen></iframe>
-<script type="text/javascript">
-    (function () {
-        "use strict";
-        var url_setter = document.getElementById('url-setter'), url = document.getElementById('url'), the_iframe = document.getElementById('the-frame');
-        url_setter.onsubmit = function (event) {
-            event.preventDefault();
-            the_iframe.src = url.value;
-        };
-    }());
-</script>
             <br>
             <br>
                   </div>
@@ -70,6 +60,6 @@
     <script src="assets/js/jquery.appear.min.js"></script>
     <script src="assets/js/twitterFetcher.min.js"></script>
     <script src="assets/js/script.js"></script>
-    
-  </body>
+    <script src="assets/task.js"></script>
+ </body>
 </html>
