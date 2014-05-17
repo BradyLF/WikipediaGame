@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Merlin HTML/CSS template">
+    <meta name="author" content="Hasan Alibegic">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <title>Wikipedia Game</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="loader">
+      <div class="fading-line"></div>
+    </div>
+    
+    <div id="navbar-top">
+      <nav class="navbar navbar-default navbar-static" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            
+            <a class="navbar-brand nav-external" href="#home">Wikipedia Game</a>
+          </div>
+          
+        </div>
+      </nav>
+    </div>
+    <section id="services" class="page">
+      <div class="container">
+        <div class="content text-center">
+          <div class="heading">
+           
+            <form action="" method="post" id="url-setter">
+    <input type="text" name="url" id="url" value="http://"/>
+    <button type="submit" name="submit">Go!</button>
+    
+</form>
+<br>
+<iframe style="border:dotted" id="the-frame" width="100%" height="600px" src="" frameborder="0" allowfullscreen></iframe>
+<script type="text/javascript">
+    (function () {
+        "use strict";
+        var url_setter = document.getElementById('url-setter'), url = document.getElementById('url'), the_iframe = document.getElementById('the-frame');
+        url_setter.onsubmit = function (event) {
+            event.preventDefault();
+            the_iframe.src = url.value;
+        };
+    }());
+</script>
+            <br>
+            <br>
+                  </div>
+      </div>
+    </section>
+            <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.min.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nav.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/twitterFetcher.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+  </body>
+</html>
