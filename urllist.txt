@@ -129,7 +129,7 @@ http://en.wikipedia.org/wiki/Microscope
 http://en.wikipedia.org/wiki/Milk
 http://en.wikipedia.org/wiki/Milkshake
 http://en.wikipedia.org/wiki/Mist
-http://en.wikipedia.org/wiki/Money $$$$
+http://en.wikipedia.org/wiki/Money
 http://en.wikipedia.org/wiki/Monster
 http://en.wikipedia.org/wiki/Mosquito
 http://en.wikipedia.org/wiki/Mouth
