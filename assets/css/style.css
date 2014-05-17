@@ -147,7 +147,7 @@ a:focus {
 }
 #home a { margin: 0 5px }
 #services {
-  background-color: #f5f5f5;
+  background-image: url(http://www.animolustra.com/homebg2.png);
   border-bottom: solid 1px #e7e7e7;
 }
 #services .service i { margin-top: 60px }
