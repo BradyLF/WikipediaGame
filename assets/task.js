@@ -14,9 +14,30 @@
 	        url.value="http://en.wikipedia.org/wiki/Airforce";
         }else if(0.05< wordGen < 0.06){
 	        url.value="http://en.wikipedia.org/wiki/Airport";
-        }else if(wordGen > 0.1){
-	        url.value="http://en.wikipedia.org/wiki/Airport";
+        }else if(0.06< wordGen < 0.07){
+	        url.value="http://en.wikipedia.org/wiki/Album";
+        }else if(0.07< wordGen < 0.08){
+	        url.value="http://en.wikipedia.org/wiki/Alphabet";
+        }else if(0.08< wordGen < 0.09){
+	        url.value="http://en.wikipedia.org/wiki/Apple";
+        }else if(0.09< wordGen < 0.1){
+	        url.value="http://en.wikipedia.org/wiki/Arm";
+        }else if(0.1< wordGen < 0.11){
+	        url.value="http://en.wikipedia.org/wiki/Army";
+        }else if(0.11< wordGen < 0.12){
+	        url.value="http://en.wikipedia.org/wiki/Baby";
+        }else if(0.12< wordGen < 0.13){
+	        url.value="http://en.wikipedia.org/wiki/Backpack";
+        }else if(0.13< wordGen < 0.14){
+	        url.value="http://en.wikipedia.org/wiki/Balloon";
+        }else if(0.14< wordGen < 0.15){
+	        url.value="http://en.wikipedia.org/wiki/Banana";
+        }else if(0.15< wordGen < 0.16){
+	        url.value="http://en.wikipedia.org/wiki/Bank";
+        }else if(0.16< wordGen < 0.17){
+	        url.value="http://en.wikipedia.org/wiki/Banana";
         }
+
         
         
         
