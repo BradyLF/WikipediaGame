@@ -42,6 +42,20 @@
 	        url.value="http://en.wikipedia.org/wiki/Bathtub";
         }else if(0.19< wordGen < 0.2){
 	        url.value="http://en.wikipedia.org/wiki/Bed";
+        }else if(0.2< wordGen < 0.21){
+	        url.value="http://en.wikipedia.org/wiki/Bee";
+        }else if(0.21< wordGen < 0.22){
+	        url.value="http://en.wikipedia.org/wiki/Bible";
+        }else if(0.22< wordGen < 0.23){
+	        url.value="http://en.wikipedia.org/wiki/Bird";
+        }else if(0.23< wordGen < 0.24){
+	        url.value="http://en.wikipedia.org/wiki/Bomb";
+        }else if(0.24< wordGen < 0.25){
+	        url.value="http://en.wikipedia.org/wiki/Book";
+        }else if(0.25< wordGen < 0.26){
+	        url.value="http://en.wikipedia.org/wiki/Needle";
+        }else if(0.26< wordGen < 0.27){
+	        url.value="http://en.wikipedia.org/wiki/Paint";
         }
 
         
