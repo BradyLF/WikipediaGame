@@ -35,7 +35,13 @@
         }else if(0.15< wordGen < 0.16){
 	        url.value="http://en.wikipedia.org/wiki/Bank";
         }else if(0.16< wordGen < 0.17){
-	        url.value="http://en.wikipedia.org/wiki/Banana";
+	        url.value="http://en.wikipedia.org/wiki/Barbecue";
+        }else if(0.17< wordGen < 0.18){
+	        url.value="http://en.wikipedia.org/wiki/Bathroom";
+        }else if(0.18< wordGen < 0.19){
+	        url.value="http://en.wikipedia.org/wiki/Bathtub";
+        }else if(0.19< wordGen < 0.2){
+	        url.value="http://en.wikipedia.org/wiki/Bed";
         }
 
         
