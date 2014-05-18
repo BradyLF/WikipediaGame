@@ -136,18 +136,77 @@
 	        url.value="http://en.wikipedia.org/wiki/Gas";
         }else if(0.66< wordGen < 0.67){
 	        url.value="http://en.wikipedia.org/wiki/Boy";
-        }else if(0.66< wordGen < 0.67){
+        }else if(0.67< wordGen < 0.68){
 	        url.value="http://en.wikipedia.org/wiki/Fruit";
+        }else if(0.68< wordGen < 0.69){
+	        url.value="http://en.wikipedia.org/wiki/Car";
+        }else if(0.69< wordGen < 0.7){
+	        url.value="http://en.wikipedia.org/wiki/Earth";
+        }else if(0.7< wordGen < 0.71){
+	        url.value="http://en.wikipedia.org/wiki/Diamond";
+        }else if(0.71< wordGen < 0.72){
+	        url.value="http://en.wikipedia.org/wiki/Electricity";
+        }else if(0.72< wordGen < 0.73){
+	        url.value="http://en.wikipedia.org/wiki/Circus";
+        }else if(0.73< wordGen < 0.74){
+	        url.value="http://en.wikipedia.org/wiki/Alphabet";
+        }else if(0.74< wordGen < 0.75){
+	        url.value="http://en.wikipedia.org/wiki/Comet";
+        }else if(0.75< wordGen < 0.76){
+	        url.value="http://en.wikipedia.org/wiki/Light";
+        }else if(0.76< wordGen < 0.77){
+	        url.value="http://en.wikipedia.org/wiki/Color";
+        }else if(0.77< wordGen < 0.78){
+	        url.value="http://en.wikipedia.org/wiki/Science";
+        }else if(0.78< wordGen < 0.79){
+	        url.value="http://en.wikipedia.org/wiki/Life";
+        }else if(0.79< wordGen < 0.8){
+	        url.value="http://en.wikipedia.org/wiki/Comic";
+        }else if(0.8< wordGen < 0.81){
+	        url.value="http://en.wikipedia.org/wiki/Television";
+        }else if(0.81< wordGen < 0.82){
+	        url.value="http://en.wikipedia.org/wiki/Torpedo";
+        }else if(0.82< wordGen < 0.83){
+	        url.value="http://en.wikipedia.org/wiki/Vampire";
+        }else if(0.83< wordGen < 0.84){
+	        url.value="http://en.wikipedia.org/wiki/Weapon";
+        }else if(0.84< wordGen < 0.85){
+	        url.value="http://en.wikipedia.org/wiki/Toilet";
+        }else if(0.85< wordGen < 0.86){
+	        url.value="http://en.wikipedia.org/wiki/Tennis";
+        }else if(0.86< wordGen < 0.87){
+	        url.value="http://en.wikipedia.org/wiki/Spice";
+        }else if(0.87< wordGen < 0.88){
+	        url.value="http://en.wikipedia.org/wiki/Music";
+        }else if(0.88< wordGen < 0.89){
+	        url.value="http://en.wikipedia.org/wiki/School";
+        }else if(0.89< wordGen < 0.9){
+	        url.value="http://en.wikipedia.org/wiki/Language";
+        }else if(0.9< wordGen < 0.91){
+	        url.value="http://en.wikipedia.org/wiki/Cell";
+        }else if(0.91< wordGen < 0.92){
+	        url.value="http://en.wikipedia.org/wiki/Botany";
+        }else if(0.92< wordGen < 0.93){
+	        url.value="http://en.wikipedia.org/wiki/Family";
+        }else if(0.93< wordGen < 0.94){
+	        url.value="http://en.wikipedia.org/wiki/Time";
+        }else if(0.94< wordGen < 0.95){
+	        url.value="http://en.wikipedia.org/wiki/Weather";
+        }else if(0.95< wordGen < 0.96){
+	        url.value="http://en.wikipedia.org/wiki/Computer_programming";
+        }else if(0.96< wordGen < 0.97){
+	        url.value="http://en.wikipedia.org/wiki/Clothes";
+        }else if(0.97< wordGen < 0.98){
+	        url.value="http://en.wikipedia.org/wiki/Egypt";
+        }else if(0.98< wordGen < 0.99){
+	        url.value="http://en.wikipedia.org/wiki/America";
+        }else if(0.99< wordGen < 1.00){
+	        url.value="http://en.wikipedia.org/wiki/Fun";
         }
-
-        
-        
-        
-        
-        
-        
-        url_setter.onsubmit = function (event) {
-            event.preventDefault();
+        window.onload = function(){
+	        url_setter();
+        }
+                url_setter = function () {
             the_iframe.src = url.value;
         };
     }());
