@@ -213,5 +213,7 @@
 	        dest.value="America";
         }else if(0.99< wordGen < 1.00){
 	        dest.value="Fun";
-        }
+        }else{
+	        confirm("Please Refresh The Page, There Seems To Have Been An Error.")
+        };
     }());
