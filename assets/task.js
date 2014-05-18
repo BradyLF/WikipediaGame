@@ -205,8 +205,8 @@
         }
         window.onload = function(){
 	        url_setter();
-        }
+	        }
                 url_setter = function () {
             the_iframe.src = url.value;
-        };
+            };
     }());
