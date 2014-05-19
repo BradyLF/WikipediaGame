@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +26,7 @@
 	//-->
 	</script> 
   </head>
+  
   <body background="http://www.animolustra.com/homebg2.png">
     <div class="loader">
       <div class="fading-line">
@@ -42,10 +44,10 @@
                 <a href="#services2">How To Play</a>
               </li>
                <li>
-                <a href="http://wikifind.io/aboutus.html">About Us</a>
+                <a href="#aboutus">About Us</a>
               </li>
                <li>
-                <a href="http://wikifind.io/aboutus.html">Contact Us</a>
+                <a href="#contactus">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -71,7 +73,7 @@
     <center>
 		<form action="" method="post" id="url-setter">
        	  
-			<h4 style="color:#fff">Get From <input readonly="readonly" type="text" style="color:#000" size="30" type="text" name="url" id="url" value="http://"/> To 
+			<h4 style="color:#fff">Get From <input readonly="readonly" type="text" style="color:#000" size="10" type="text" name="url" id="url" value="http://"/> To 
 				<input readonly="readonly" type="text" size="10" type="text" name="dest" id="dest" style="color:#000;"/></h4><h4 style="color:#fff">
 				<br>
 				<a style="background-color:#3399ff;color:white;border-top:1px solid white;border-bottom:1px solid white;border-radius:7px;" 													href="javascript:document.location.reload();"
@@ -82,6 +84,7 @@
 				</form>
 			<br>
 		<iframe onLoad="url.value=this.contentWindow.location; victory();" style="border:dotted;color:#fff"  id="the-frame" name="the-frame" width="87%" height="600px" src="" frameborder="0" allowfullscreen></iframe>
+		
     	<br>
 	   <br>
 	</div>
@@ -96,9 +99,20 @@
             	<div class="border"></div>
 					<center>
 						<br>
-							<h3 style="color:#fff">The objective of this game is to get from your current page to the other page specified using only in-site links on 									Wikipedia. You <strong>May Not</strong> search.</h3><br>
+							<h3 style="color:#fff">The objective of this game is to get from your current page to the other page specified using only in-site links on 									Wikipedia. You <strong>may not</strong> search.</h3><br>
 							
+							<h2 id="aboutus" style="color:#fff">About Us</h2>
+            	<div class="border"></div>
+					<center>
+						<br>
+							<h3 style="color:#fff">Our names are Marko and Brady. We enjoy coding and making websites and apps that offer people entertainment and knowledge. This made <a style="color:#ADDFFF" href="http://wikifind.io">WikiFind</a> a no-brainer. We had played <a style="color:#ADDFFF" href="http://wikifind.io">WikiFind</a> on <a style="color:#ADDFFF" href="http://wikipedia.org"> Wikipedia's</a> actual site before by coming up with our own starting and ending pages. However, we wanted a site that would auto-generate these pages for us. Thus, <a style="color:#ADDFFF" href="http://wikifind.io">WikiFind</a> was born.</h3><br>
 							
+							<h2 id="contactus" style="color:#fff">Contact Us</h2>
+            	<div class="border"></div>
+					<center>
+						<br>
+							<h3 style="color:#fff">Please feel free to send an email to <a style="color:#ADDFFF" href="mailto:foresterapps@gmail.com">foresterapps@gmail.com</a></h3><br>
+							<a style="background-color:#3399ff;color:white;border-top:1px solid white;border-bottom:1px solid white;border-radius:7px;" href="#services"><h4>&nbsp Return To Top &nbsp</a></h4><br>
 						<br>
 					<br>
 				<!-- Start of SimpleHitCounter Code -->
@@ -127,12 +141,7 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/task.js"></script>
     <script src="assets/Dest.js"></script>
-     <script type="text/javascript">
-        function victory(){
-        if(url.value.substring(29, 50) == dest.value){
-	    confirm("Congratulations, You Made It To Your Destination");
-    }
-    }
-       </script>
+        <script src="assets/victory.js"></script>
+   
  </body>
 </html>
