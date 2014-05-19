@@ -42,10 +42,10 @@
                 <a href="#services2">How To Play</a>
               </li>
                <li>
-                <a href="#aboutus">About Us</a>
+                <a href="aboutus.html">About Us</a>
               </li>
                <li>
-                <a href="#contactus">Contact Us</a>
+                <a href="aboutus.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -60,9 +60,8 @@
     
 </form>
 <br>
-            <br>
-            <br>
 
+           
                   </div>
       </div>
     </section>
@@ -72,7 +71,7 @@
     <center>
 		<form action="" method="post" id="url-setter">
        	  
-			<h4 style="color:#fff">Get From <input readonly="readonly" type="text" style="color:#000" size="30" type="text" name="url" id="url" value="http://"/> To 
+			<h4 style="color:#fff">Get From <input readonly="readonly" type="text" style="color:#000" size="10" type="text" name="url" id="url" value="http://"/> To 
 				<input readonly="readonly" type="text" size="10" type="text" name="dest" id="dest" style="color:#000;"/></h4><h4 style="color:#fff">
 				<br>
 				<a style="background-color:#3399ff;color:white;border-top:1px solid white;border-bottom:1px solid white;border-radius:7px;" 													href="javascript:document.location.reload();"
@@ -82,10 +81,7 @@
 					</h4>    
 				</form>
 			<br>
-		<iframe onLoad="url.value=this.contentWindow.location; victory();" style="border:dotted;color:#fff"  id="the-frame" width="87%" height="600px" src="" frameborder="0" allowfullscreen>
-		</iframe>
-
-
+		<iframe onLoad="url.value=this.contentWindow.location; victory();" style="border:dotted;color:#fff"  id="the-frame" name="the-frame" width="87%" height="600px" src="" frameborder="0" allowfullscreen></iframe>
     	<br>
 	   <br>
 	</div>
@@ -115,17 +111,16 @@
 							<h3 style="color:#fff">Please feel free to send an email to <a style="color:#ADDFFF" href="mailto:foresterapps@gmail.com">foresterapps@gmail.com</a></h3><br>
 							<a style="background-color:#3399ff;color:white;border-top:1px solid white;border-bottom:1px solid white;border-radius:7px;" href="#services"><h4>&nbsp Return To Top &nbsp</a></h4><br>
 						<br>
-					<br> 
+					<br>
+				<!-- Start of SimpleHitCounter Code -->
+				<div align="right"><img src="http://simplehitcounter.com/hit.php?uid=1727804&f=16777215&b=0"border="0" height="18" width="83" alt="baby diaper cake">
+				<br>
+				</div>
+				<!-- End of SimpleHitCounter Code -->  
             </center>  
           </div>
         </div>
     </div>
-    <!-- Start of SimpleHitCounter Code -->
-<div align="right"><a href="http://www.finediapercakes.com/" target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=1727804&f=16777215&b=0" border="0" height="18" width="83"></a><br><a href="http://www.finediapercakes.com/" target="_blank" style="text-decoration:none;"></a></div>
-<!-- End of SimpleHitCounter Code -->
-
-    </section>
-</section>
 
 
 
@@ -145,7 +140,7 @@
     <script src="assets/Dest.js"></script>
      <script type="text/javascript">
         function victory(){
-        if(url.value.substring(29, 50) == dest.value){
+        if(url.value.substring(29, 41) == dest.value){
 	    confirm("Congratulations, You Made It To Your Destination");
     }
     }
