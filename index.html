@@ -55,16 +55,11 @@
     
 
    
-    <a style="background-color:#3399ff;color:white;border-top:1px solid white;border-bottom:1px solid white;border-radius:7px;" href="javascript:document.location.reload();"
-
-ONMOUSEOVER="window.status='Refresh'; return true"
-ONMOUSEOUT="window.status='refresh'">
- &nbsp   Start From Another Page  &nbsp</a></h4>
+   
    
     
 </form>
 <br>
-<iframe onLoad="url.value=this.contentWindow.location; victory();" style="border:dotted;color:#fff"  id="the-frame" name="the-frame" width="87%" height="600px" src="" frameborder="0" allowfullscreen></iframe>
             <br>
             <br>
                   </div>
@@ -86,7 +81,7 @@ ONMOUSEOUT="window.status='refresh'">
 					</h4>    
 				</form>
 			<br>
-		<iframe style="border:dotted;color:#fff"  id="the-frame" width="87%" height="600px" src="" frameborder="0" allowfullscreen>
+		<iframe onLoad="url.value=this.contentWindow.location; victory();" style="border:dotted;color:#fff"  id="the-frame" width="87%" height="600px" src="" frameborder="0" allowfullscreen>
 		</iframe>
     	<br>
 	   <br>
@@ -117,25 +112,17 @@ ONMOUSEOUT="window.status='refresh'">
 							<h3 style="color:#fff">Please feel free to send an email to <a style="color:#ADDFFF" href="mailto:foresterapps@gmail.com">foresterapps@gmail.com</a></h3><br>
 							<a style="background-color:#3399ff;color:white;border-top:1px solid white;border-bottom:1px solid white;border-radius:7px;" href="#services"><h4>&nbsp Return To Top &nbsp</a></h4><br>
 						<br>
-					<br>
-				<!-- Start of SimpleHitCounter Code -->
-				<div align="right"><img src="http://simplehitcounter.com/hit.php?uid=1727804&f=16777215&b=0"border="0" height="18" width="83" alt="baby diaper cake">
-				<br>
-				</div>
-				<!-- End of SimpleHitCounter Code -->  
+					<br> 
             </center>  
           </div>
         </div>
     </div>
-<<<<<<< HEAD
     <!-- Start of SimpleHitCounter Code -->
 <div align="right"><a href="http://www.finediapercakes.com/" target="_blank"><img src="http://simplehitcounter.com/hit.php?uid=1727804&f=16777215&b=0" border="0" height="18" width="83"></a><br><a href="http://www.finediapercakes.com/" target="_blank" style="text-decoration:none;"></a></div>
 <!-- End of SimpleHitCounter Code -->
 
     </section>
-=======
 </section>
->>>>>>> FETCH_HEAD
             <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
@@ -149,7 +136,7 @@ ONMOUSEOUT="window.status='refresh'">
     <script src="assets/Dest.js"></script>
      <script type="text/javascript">
         function victory(){
-        if(url.value.substring(29, 41) == dest.value){
+        if(url.value.substring(29, 50) == dest.value){
 	    confirm("Congratulations, You Made It To Your Destination");
     }
     }
