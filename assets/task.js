@@ -206,8 +206,5 @@
         window.onload = function(){
 	        url_setter();
 	        }
-                url_setter = function () {
-            the_iframe.src ="http://en.wikipedia.org/wiki/"+ url.value;
-            };
-    }());
+                    }());
     
