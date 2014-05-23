@@ -611,7 +611,7 @@ a:hover, a:focus {
 
 .downloadApp {
     display: none;
-    background-color: rgba(179,203,255,0.66);
+    background-color: rgba(229,237,255,0.66);
     color: #000000;
 }
 .mobile-web .downloadApp {
