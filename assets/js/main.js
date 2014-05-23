@@ -22,6 +22,18 @@ WikiFind.start = function() {
     document.getElementById('dest').value    = WikiFind.end;
 };
 
+WikiFind.isApp = function() {
+    return window.location.hash === 'app';
+};
+
+WikiFind.isMobileWeb = function() {
+    return WikiFind.isApp() && screen.width <= 600;
+};
+
+WikiFind.isDesktop = function() {
+    return !WikiFind.isApp() && screen.width > 600;
+};
+
 WikiFind.init = function() {
     // Navbar
     var scrollSpeed = 750;
