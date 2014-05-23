@@ -3,9 +3,7 @@ window.WikiFind = {};
 WikiFind.begin = "";
 WikiFind.end   = "";
 
-WikiFind.words = [
-    // TODO
-];
+WikiFind.words = [];
 
 WikiFind.generateWord = function () {
     return WikiFind.words[Math.floor(Math.random() * WikiFind.words.length)];
