@@ -136,11 +136,11 @@ WikiFind.init = function() {
 
     // CSS Shit
     if(WikiFind.isDesktop())
-        document.body.style = 'desktop';
+        document.body.classList.add('desktop');
     if(WikiFind.isMobileWeb())
-        document.body.style = 'mobile-web';
+        document.body.classList.add('mobile-web');
     if(WikiFind.isApp())
-        document.body.style = 'app';
+        document.body.classList.add('app');
 };
 
 window.onload = function() {
