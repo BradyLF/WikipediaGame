@@ -592,15 +592,19 @@ a:hover, a:focus {
     color: #fff;
     height: 600px;
 }
-
 .desktop #the-frame {
     width: 87%;
 }
-
 .mobile #the-frame {
     width: 100%;
 }
-
 .app #the-frame {
     width: 100%;
+}
+
+.mobile #fromText {
+    display: none;
+}
+.app #fromText {
+    display: none;
 }
