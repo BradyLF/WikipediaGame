@@ -15,7 +15,7 @@ WikiFind.toURL = function(str) {
     return 'http://en.wikipedia.org/wiki/' + str;
 };
 
-window.onload = function() {
+WikiFind.start = function() {
     WikiFind.begin = generateWord();
     WikiFind.end   = generateWord();
 
@@ -23,3 +23,5 @@ window.onload = function() {
     document.getElementById('url').value     = WikiFind.begin;
     document.getElementById('dest').value    = WikiFind.end;
 };
+
+window.onload = start;
