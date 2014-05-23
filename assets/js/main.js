@@ -16,8 +16,8 @@ WikiFind.toURL = function(str) {
 };
 
 WikiFind.start = function() {
-    WikiFind.begin = generateWord();
-    WikiFind.end   = generateWord();
+    WikiFind.begin = WikiFind.generateWord();
+    WikiFind.end   = WikiFind.generateWord();
 
     document.getElementById('the-frame').src = WikiFind.toURL(WikiFind.begin);
     document.getElementById('url').value     = WikiFind.begin;
