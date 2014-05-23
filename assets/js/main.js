@@ -23,7 +23,7 @@ WikiFind.start = function() {
 };
 
 WikiFind.isApp = function() {
-    return window.location.hash === 'app';
+    return window.location.hash === '#app';
 };
 
 WikiFind.isMobileWeb = function() {
