@@ -126,6 +126,6 @@ WikiFind.init = function() {
 };
 
 window.onload = function() {
-    init();
-    start();
+    WikiFind.init();
+    WikiFind.start();
 };
