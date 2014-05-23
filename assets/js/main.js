@@ -26,12 +26,12 @@ WikiFind.isApp = function() {
     return window.location.hash === '#app';
 };
 
-WikiFind.isMobileWeb = function() {
-    return WikiFind.isApp() && screen.width <= 600;
+WikiFind.isDesktop = function() {
+    return screen.width > 600;
 };
 
-WikiFind.isDesktop = function() {
-    return !WikiFind.isApp() && screen.width > 600;
+WikiFind.isMobileWeb = function() {
+    return !WikiFind.isApp() && !isDesktop();
 };
 
 WikiFind.init = function() {
