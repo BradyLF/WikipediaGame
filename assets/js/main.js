@@ -27,7 +27,7 @@ WikiFind.isApp = function() {
 };
 
 WikiFind.isDesktop = function() {
-    return screen.width > 600;
+    return screen.width > 700;
 };
 
 WikiFind.isMobileWeb = function() {
