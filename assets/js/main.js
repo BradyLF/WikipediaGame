@@ -133,6 +133,14 @@ WikiFind.init = function() {
     // jQuery stuffs
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
+
+    // CSS Shit
+    if(WikiFind.isDesktop())
+        document.body.style = 'desktop';
+    if(WikiFind.isMobileWeb())
+        document.body.style = 'mobile-web';
+    if(WikiFind.isApp())
+        document.body.style = 'app';
 };
 
 window.onload = function() {
