@@ -586,3 +586,21 @@ a:hover, a:focus {
     background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
     color: #fff;
 }
+
+#the-frame {
+    border: dotted;
+    color: #fff;
+    height: 600px;
+}
+
+.desktop #the-frame {
+    width: 87%;
+}
+
+.mobile #the-frame {
+    width: 100%;
+}
+
+.app #the-frame {
+    width: 100%;
+}
