@@ -595,14 +595,14 @@ a:hover, a:focus {
 .desktop #the-frame {
     width: 87%;
 }
-.mobile #the-frame {
+.mobile-web #the-frame {
     width: 100%;
 }
 .app #the-frame {
     width: 100%;
 }
 
-.mobile #fromText {
+.mobile-web #fromText {
     display: none;
 }
 .app #fromText {
