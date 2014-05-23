@@ -31,7 +31,7 @@ WikiFind.isDesktop = function() {
 };
 
 WikiFind.isMobileWeb = function() {
-    return !WikiFind.isApp() && !isDesktop();
+    return !WikiFind.isApp() && !WikiFind.isDesktop();
 };
 
 WikiFind.init = function() {
