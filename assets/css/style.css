@@ -588,7 +588,7 @@ a:hover, a:focus {
 }
 
 #the-frame {
-    border: dotted;
+    border: 0;
     color: #fff;
     height: 600px;
 }
