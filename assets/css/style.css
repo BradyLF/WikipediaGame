@@ -608,3 +608,12 @@ a:hover, a:focus {
 .app #fromText {
     display: none;
 }
+
+.downloadApp {
+    display: none;
+    background-color: #FF4136;
+    color: #000000;
+}
+.mobile-web .downloadApp {
+    display: block !important;
+}
