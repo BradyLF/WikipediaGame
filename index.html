@@ -70,7 +70,7 @@
                     </h4>
                 </form>
                 <br>
-                <iframe onLoad="victory();" id="the-frame" name="the-frame" src="" frameborder="0" allowfullscreen></iframe>
+                <iframe id="the-frame" name="the-frame" src="" frameborder="0" allowfullscreen></iframe>
                 <br>
                 <br>
             </center>
@@ -102,16 +102,6 @@
                 function howTo() {
                     alert("The objective of this game is to get from your current page to the other page specified using only in-site links on Wikipedia. You may not search.");
                 }
-            </script>
-            <script type="text/javascript">
-            function victory(){
-var x = (window.frames['the-frame'].document.getElementById('firstHeading')).innerHTML;
-var y = x.replace('<span dir="auto">', "");
-var z = y.replace("</span>", "");
-if(z == dest.value){
-	alert("Congratulations, You Made It To Your Destination!")
-}
-}
             </script>
         </section>
     </body>
