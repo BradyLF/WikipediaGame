@@ -1,7 +1,10 @@
+
 window.WikiFind = {};
 
 WikiFind.begin = "";
 WikiFind.end   = "";
+
+WikiFind.words = [];
 
 WikiFind.words = [
     'Adult',
@@ -236,7 +239,7 @@ WikiFind.words = [
     'Woman',
     'Worm',
     'X-ray'];];];
-    
+
 WikiFind.generateWord = function () {
     return WikiFind.words[Math.floor(Math.random() * WikiFind.words.length)];
 };
