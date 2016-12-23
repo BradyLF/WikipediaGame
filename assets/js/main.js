@@ -143,8 +143,6 @@ WikiFind.init = function() {
         document.body.classList.add('app');
 };
 
-
-
 window.onload = function() {
     WikiFind.init();
     WikiFind.start();
